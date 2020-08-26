@@ -1,0 +1,63 @@
+{
+  "name": "police",
+  "version": "0.4.0",
+  "author": "Pavan Kumar Sunkara <pavan.sss1991@gmail.com> (http://pksunkara.github.com)",
+  "description": "policing tool for dependency package versions",
+  "main": "./lib/police",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pksunkara/npm-police.git"
+  },
+  "keywords": [
+    "police",
+    "dependency",
+    "package",
+    "version",
+    "github",
+    "npm"
+  ],
+  "homepage": "http://pksunkara.github.com/npm-police",
+  "scripts": {},
+  "contributors": [
+    {
+      "name": "Pavan Kumar Sunkara",
+      "email": "pavan.sss1991@gmail.com"
+    },
+    {
+      "name": "Brandon Philips",
+      "email": "brandon@ifup.org"
+    }
+  ],
+  "dependencies": {
+    "async": "0.1.x",
+    "colors": "0.6.x",
+    "eyes": "0.1.x",
+    "moment": "1.x.x",
+    "nconf": "0.6.x",
+    "npmconf": "2.1.x",
+    "optimist": "0.3.x",
+    "pkginfo": "0.2.x",
+    "prompt": "0.2.x",
+    "request": "2.9.x",
+    "semver": "2.2.x",
+    "winston": "0.6.x"
+  },
+  "devDependencies": {
+    "vows": "~0.6.0"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "bugs": {
+    "url": "https://github.com/pksunkara/npm-police/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/pksunkara/npm-police/raw/master/LICENSE"
+    }
+  ],
+  "bin": {
+    "police": "./bin/police"
+  }
+}
